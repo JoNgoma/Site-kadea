@@ -1,0 +1,36 @@
+:root{
+    --red:#FE0000;
+}
+[src="assets/img/kadea_acad_red.png"]{
+    width: 8em;
+}
+[src="assets/svg/arrow-down.svg"]{
+    width: .9em;
+}
+.indice{
+    width: 1.2em;
+}
+[src="assets/svg/pdf.svg"]{
+    width: 1em;
+}
+[src="assets/img/academy-twich.png"]{
+    width: 85vw;
+}
+nav ul{
+    display: none;
+}
+[src="assets/svg/icon-hamburger.ico"]{
+    fill: #FE0000;
+    color: blue;
+    width: 1.8em;
+    height: 1.2em;
+}
+.btn{
+    border: none;
+    background-color: var(--red);
+    color: white;
+    padding: 7px 10px;
+    border-radius: 5px;
+    font-weight: 900;
+    font-size: .9em;
+}

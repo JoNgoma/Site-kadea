@@ -1,0 +1,50 @@
+:root {
+    --red: #FE0000;
+}
+
+main{
+    margin: 1em 1em;
+    position: relative;
+    top: .5em;
+    align-items: center;
+}
+
+h1 {
+    line-height: 1.1em;
+    font-weight: 1000;
+    font-size: 2em;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+}
+
+span {
+    color: var(--red);
+}
+#sec_title{
+    display: flex;
+    flex-direction: column;
+}
+#title_left{
+    display: flex;
+    flex-direction: column;
+    row-gap: 1em;
+}
+.title_cntn{
+    display: flex;
+    flex-direction: column;
+    row-gap: .5em;
+}
+.t_cntn_list, .btn_dload{
+    display: flex;
+    column-gap: .5em;
+    align-items: center;
+}
+.btn_dload{
+    border: 1px solid black;
+    border-radius: 5px;
+    padding: 0 5px;
+}
+.title_btn{
+    display: flex;
+    justify-content: space-between;
+    margin: 0 0 1em;
+}
